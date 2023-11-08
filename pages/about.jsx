@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import aboutImage from "../public/image1.jpg";
+import aboutImage from "../public/shahin.png";
 import { useTheme } from "next-themes";
 import CategoryCard from "@/components/CategoryCard";
 import love_black from "../public/love-black.svg";
@@ -29,7 +29,7 @@ export default function About() {
   return (
     <div className="px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
       <Head>
-        <title>about ✦ pranjal</title>
+        <title>about ✦ Shidul</title>
         <link rel="icon" href="/Avatar-white.svg" />
       </Head>
       <main className="  max-w-screen ">
@@ -47,13 +47,13 @@ export default function About() {
                 height={600}
                 width={600}
                 className="rounded-2xl select-none drop-shadow-md shadow-purple-200 dark:shadow-orange-100/60 dark:drop-shadow-sm shadow-2xl h-28 w-28 md:h-32 md:w-32 lg:h-40 lg:w-40 border-white border-2"
-                alt="pranjal shikhar"
+                alt="Shidul islam"
                 priority
               />
             </div>
             <div className="text-center mx-auto mt-8 z-20">
               <h3 className="mx-auto  font-bold text-lg lg:text-xl xl:text-2xl">
-                Pranjal Shikhar Sinha{" "}
+                MD Shidul Islam{" "}
                 <span className="inline-flex items-baseline">
                   <Image
                     src={Whale}
@@ -71,7 +71,7 @@ export default function About() {
                     className="self-center w-6 h-6 mx-1"
                   />
                 </span>{" "}
-                &#47;&#47; Designer{" "}
+                &#47;&#47; Programmer{" "}
                 <span className="inline-flex items-baseline">
                   <Image
                     src={Polish}
@@ -137,26 +137,26 @@ export default function About() {
               <span className="text-red-700 font-bold">GMail</span>{" "}
               <a
                 onClick={() =>
-                  navigator.clipboard.writeText("shikhar.pranjal3@gmail.com")
+                  navigator.clipboard.writeText("sishahin093@gmail.com")
                 }
                 className=" underline underline-offset-4 decoration-2 decoration-purple-400 group select-all font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select "
-                href="mailto:shikhar.pranjal3@gmail.com"
+                href="mailto:sishahin093@gamil.com"
               >
                 {" "}
-                shikhar.pranjal3@gmail.com
+                sishahin093@gmail.com
               </a>{" "}
               or <span className="text-blue-700 font-bold">LinkedIn</span>{" "}
               <a
-                href="http://linkedin.com/in/pranjalshikhar"
+                href="https://www.linkedin.com/in/shidul-islam-ab0480241/"
                 className=" underline underline-offset-4 decoration-2 decoration-purple-400 font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select"
                 rel="noopener noreferrer"
                 target="blank"
               >
                 {" "}
-                Pranjal Shikhar Sinha{" "}
+                MD Shidul Islam{" "}
               </a>{" "}
               or you can DM me on{" "}
-              <span className="text-orange-500 font-bold">Instagram</span>{" "}
+              {/* <span className="text-orange-500 font-bold">Instagram</span>{" "}
               <a
                 href="https://instagram.com/pranjal.fig"
                 target="blank"
@@ -165,12 +165,12 @@ export default function About() {
               >
                 {" "}
                 @pranjal.fig{" "}
-              </a>{" "}
+              </a>{" "} */}
             </p>
           </div>
           <div className="flex mx-auto justify-center mt-16 select-none">
             <span className="font-black font-app text-2xl md:text-3xl align-text-bottom tracking-wider mx-3 md:mx-6">
-              dattebayo
+              Shidul
             </span>
             {currentTheme === "dark" ? (
               <Image src={love_white} alt="love" width="30" className="-mt-4" />

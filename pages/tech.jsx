@@ -74,7 +74,7 @@ const tech = () => {
       text: "text-indigo-500",
     },
     {
-      title: "SASS",
+      title: "Ant Design",
       id: 7,
       main: "/icons/sass-original.svg",
       desc: "CSS with superpowers. The most powerful professional grade CSS extension language in the world.",
@@ -83,7 +83,7 @@ const tech = () => {
       text: "text-pink-800",
     },
     {
-      title: "Notion",
+      title: "DaisyUI",
       id: 8,
       main: "/notion-icon.svg",
       desc: "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team.",
@@ -92,8 +92,17 @@ const tech = () => {
       text: "text-gray-100",
     },
     {
-      title: "Figma",
+      title: "NodeJS",
       id: 9,
+      main: "/notion-icon.svg",
+      desc: "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team.",
+      tag: "productivity",
+      bg: "bg-gray-900",
+      text: "text-gray-100",
+    },
+    {
+      title: "Figma",
+      id: 10,
       main: "/icons/figma-original.svg",
       desc: "A boon for webapp designers, from wireframe to animation, it has it all.",
       tag: "design",
@@ -102,7 +111,7 @@ const tech = () => {
     },
     {
       title: "GitHub",
-      id: 10,
+      id: 11,
       main: "/icons/github-original.svg",
       desc: "A developer's go-to platform for collaborating and showcasing their code.",
       tag: "platform",
@@ -111,7 +120,52 @@ const tech = () => {
     },
     {
       title: "Brave",
-      id: 11,
+      id: 12,
+      main: "/brave-icon.svg",
+      desc: "A privacy focused browser used to block ads and extra pops.",
+      tag: "platform",
+      bg: "bg-orange-500",
+      text: "text-orange-100",
+    },
+    {
+      title: "ExpressJS",
+      id: 13,
+      main: "/brave-icon.svg",
+      desc: "A privacy focused browser used to block ads and extra pops.",
+      tag: "platform",
+      bg: "bg-orange-500",
+      text: "text-orange-100",
+    },
+    {
+      title: "Prisma",
+      id: 14,
+      main: "/brave-icon.svg",
+      desc: "A privacy focused browser used to block ads and extra pops.",
+      tag: "platform",
+      bg: "bg-orange-500",
+      text: "text-orange-100",
+    },
+    {
+      title: "PostgresSQL",
+      id: 15,
+      main: "/brave-icon.svg",
+      desc: "A privacy focused browser used to block ads and extra pops.",
+      tag: "platform",
+      bg: "bg-orange-500",
+      text: "text-orange-100",
+    },
+    {
+      title: "MongoDB",
+      id: 16,
+      main: "/brave-icon.svg",
+      desc: "A privacy focused browser used to block ads and extra pops.",
+      tag: "platform",
+      bg: "bg-orange-500",
+      text: "text-orange-100",
+    },
+    {
+      title: "Mongoose",
+      id: 17,
       main: "/brave-icon.svg",
       desc: "A privacy focused browser used to block ads and extra pops.",
       tag: "platform",
@@ -149,7 +203,7 @@ const tech = () => {
   return (
     <div className="min-h-[75vh] md:min-h-[73vh] px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 xl:px-80 mx-auto">
       <Head>
-        <title>tech ✦ pranjal</title>
+        <title>tech ✦ Shidul</title>
         <link rel="icon" href="/Avatar-white.svg" />
       </Head>
       <main className="max-w-screen max-w-5xl mx-auto">

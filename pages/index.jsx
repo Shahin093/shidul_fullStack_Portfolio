@@ -15,7 +15,7 @@ export default function Home() {
   useEffect(() => {
     console.clear();
     console.log.apply(console, [
-      "%c Designed and Developed by Pranjal Shikhar %c %c🚀 %c\n",
+      "%c Designed and Developed by Shidul %c %c🚀 %c\n",
       "color: #fff; background: #8000ff; padding:5px 0;",
       "color: #fff; background: #242424; padding:5px 0 5px 5px;",
       "background: #242424; padding:5px 0",
@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>pranjal ✦ developer, designer</title>
+        <title>Shidul ✦ developer, designer</title>
         <link rel="icon" href="/Avatar-white.svg" />
       </Head>
       <div className="lg:min-h-screen px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
@@ -38,23 +38,13 @@ export default function Home() {
           <Blob />
           <div className="flex flex-row justify-start items-center mt-20">
             {currentTheme === "dark" ? (
-              <Image
-                src={Avatar_White}
-                alt="pranjal"
-                width="100"
-                height="100"
-              />
+              <Image src={Avatar_White} alt="Shidul" width="100" height="100" />
             ) : (
-              <Image
-                src={Avatar_Black}
-                alt="pranjal"
-                width="100"
-                height="100"
-              />
+              <Image src={Avatar_White} alt="Shidul" width="100" height="100" />
             )}
             <div className="flex flex-col ml-4">
-              <h2 className="font-bold sm:text-2xl md:text-2xl lg:text-4xl">
-                pranjal shikhar
+              <h2 className="font-bold sm:text-2xl md:text-2xl lg:text-4xl select-none ">
+                MD Shidul Islam
               </h2>
               <h4 className="text-gray-400 xl:font-bold sm:font-bold md:font-bold sm:text-xl md:text-xl lg:text-2xl">
                 (～￣▽￣)～
@@ -62,15 +52,18 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-12 m:text-xl md:text-xl lg:text-2xl">
-            <p className="font-light sm:leading-6 md:leading-6 lg:leading-8">
-              A front-end engineer based in{" "}
-              <span className="font-medium select-none animate-text bg-gradient-to-br from-[#ff911b] dark:from-[#ff8400] via-[#fff4f4] dark:via-[#fff] dark:text-black  text-border2 to-[#43ff36] dark:to-[#12ff02] rounded px-2 py-[0.05rem] ">
-                INDIA
+            <p className="font-light sm:leading-6 md:leading-6 lg:leading-8 select-none ">
+              I am a FullStack Web Developer{" "}
+              <span className="font-medium select-none animate-text bg-gradient-to-br from-[#a17f5a] dark:from-[#ff8400] via-[#fff4f4] dark:via-[#fff] dark:text-black  text-border2 to-[#43ff36] dark:to-[#12ff02] rounded px-2 py-[0.05rem] ">
+                (FullStack & MERN Stack)
               </span>{" "}
-              who develops modern, reactive, and user-friendly web applications
-              using the latest technologies currently. I believe a perfect blend
-              of UI architecture is one, where the goals and needs are accounted
-              for in an elegant, efficient, and robust design of the UI.
+              who loves to take on new challenges on every new project. I am
+              constantly trying to work on new frameworks, language. I Learn,
+              Practice and Implement HTML5, CSS3, Bootstrap, Tailwind, DaisyUI,
+              Ant Design, JavaScript, Typescript ReactJS , NextJS, Redux to
+              develop for Frontend web application. Behind I use Node.js,
+              Express.js, Prisma, MongoDB, Mongoose and PostgresSQL as a
+              database for FullStack & MERN stack Project.
             </p>
           </div>
         </div>

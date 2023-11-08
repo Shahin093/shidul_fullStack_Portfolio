@@ -12,21 +12,21 @@ const Experience = () => {
         <div className="bg-purple-400  h-28 w-28 flex-col justify-end mx-auto blur-none z-40 items-center text-center text-xl text-white font-medium rounded-lg p-2">
           <div className="basis-[60%] text-5xl font-black ">
             <h2 className="text-border mt-1 ">
-              {new Date().getUTCFullYear() - 2020}
+              {/* {new Date().getUTCFullYear() - 2020} */}6
             </h2>
           </div>
           <div className="basis-[30%] text-xs mt-3 font-bold">
-            Years of Experience
+            Months of Experience
           </div>
         </div>
       </div>
       <div className="w-[80%] mx-auto">
-        <div className="text-center max-w-2xl mx-auto tracking-normal leading-5 text-base sm:text-[1.1rem] lg:text-lg">
-          During these {new Date().getUTCFullYear() - 2020} years of Frontend
-          Development Experience, I have developed a strong problem-solving and
-          critical thinking skills, and am able to quickly adapt to new
-          technologies and methods of working. Given are some skill-set that I
-          have learned and am still actively learning as days goes by
+        <div className="text-center max-w-2xl select-none   mx-auto tracking-normal leading-5 text-base sm:text-[1.1rem] lg:text-lg">
+          During these 6 Months of FullStack Development Experience, I have
+          developed a strong problem-solving and critical thinking skills, and
+          am able to quickly adapt to new technologies and methods of working.
+          Given are some skill-set that I have learned and am still actively
+          learning as days goes by
         </div>
         <div className="flex justify-center select-none space-x-8 items-center  my-4">
           <svg
@@ -70,6 +70,9 @@ const Experience = () => {
               Tailwind
             </span>
             <span className="bg-gradient-to-b dark:from-indigo-500 dark:to-blue-400 from-indigo-200 to-blue-200 rounded-md text-center px-2 py-1">
+              Ant Design
+            </span>
+            <span className="bg-gradient-to-b dark:from-indigo-500 dark:to-blue-400 from-indigo-200 to-blue-200 rounded-md text-center px-2 py-1">
               Typescript
             </span>
           </div>
@@ -84,15 +87,18 @@ const Experience = () => {
             />
           </div>
         </div>
+
         <div className="drop-shadow-xl flex flex-col space-y-4 mx-6 md:mx-20 lg:mx-0 md:w-[70%] lg:w-[80%] max-w-2xl rounded-[1.4rem] p-4 rounded-tl-none hover:bg-gradient-to-tr hover:from-[#ffeff7] hover:to-[#F0F6FE] transition ease-in-out duration-500 hover:shadow-xl transform hover:translate-x-2 bg-gradient-to-tr from-[#ffeff7] to-[#F0F6FE] dark:from-gray-900 dark:to-gray-600 dark:hover:bg-gradient-to-tr dark:hover:from-gray-900 dark:hover:to-gray-600 lg:bg-none">
           <div className="mx-auto text-center font-deca font-bold text-2xl dark:text-[#d58357] text-orange-500">
             Design
           </div>
-          <div className="font-normal sm:text-[0.95rem] md:text-base text-center">
+
+          {/* <div className="font-normal sm:text-[0.95rem] md:text-base text-center">
             With a touch of artistic flair and splash of colors a design becomes
             a work of art, inviting the user on a journey through its purposeful
             and visually pleasing elements.
           </div>
+
           <div className="flex flex-row ml-2 space-x-4 justify-center text-[0.9rem] dark:text-black ">
             <span className="bg-gradient-to-b from-amber-100 to-orange-100 dark:from-amber-300 dark:to-orange-300 rounded-md text-center px-2 py-1">
               Figma
@@ -104,6 +110,7 @@ const Experience = () => {
               Webflow
             </span>
           </div>
+
           <div className="relative w-full h-80 rounded-[1.4rem] ">
             <Image
               fill
@@ -115,7 +122,7 @@ const Experience = () => {
           33vw"
               className="select-none object-cover rounded-md border-2 border-white shadow-md drop-shadow-md"
             />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="w-[80%] max-w-2xl mx-auto">
@@ -128,7 +135,7 @@ const Experience = () => {
         <div className="flex justify-center space-x-3 md:space-x-6 lg:space-x-8 items-center  my-4">
           <div className="group border-purple-400 hover:bg-purple-400 hover:text-white hover:drop-shadow-2xl text-purple-500 rounded-md md:rounded-xl px-2 py-1 md:px-4 md:py-2 shadow-md drop-shadow-lg dark:bg-purple-400 dark:shadow-none dark:hover:shadow-white select-none dark:text-white shadow-purple-300 ">
             <Link
-              href="/Pranjal_Shikhar_Sinha.pdf"
+              href="/Shidul_MERN_resume.pdf"
               target="_blank"
               className="flex items-center font-normal lg:font-bold space-x-2 text-sm md:text-base"
             >

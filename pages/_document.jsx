@@ -8,17 +8,20 @@ export default function Document() {
       lang="en"
     >
       <Head>
-        {/* <title>pranjal ✦ developer, designer</title> */}
-        <meta name="title" content="pranjal ✦ developer, designer" />
-        <meta name="description" content="Developer // Designer // Weeb" />
+        {/* <title>Shidul ✦ developer, Programmer</title> */}
+        <meta name="title" content="Shidul ✦ developer, Programmer" />
+        <meta name="description" content="Developer // Programmer // Weeb" />
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://pranjalshikhar.vercel.app/" />
-        <meta property="og:title" content="pranjal ✦ developer, designer" />
+        <meta
+          property="og:url"
+          content="https://shidul-portpolio.vercel.app/"
+        />
+        <meta property="og:title" content="Shidul ✦ developer, Programmer" />
         <meta
           property="og:description"
-          content="Developer // Designer // Weeb"
+          content="Developer // Programmer // Weeb"
         />
         <meta
           property="og:image"
@@ -29,12 +32,9 @@ export default function Document() {
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://pranjalshikhar.vercel.app/"
+          content="https://shidul-portpolio.vercel.app/"
         />
-        <meta
-          property="twitter:title"
-          content="pranjal ✦ developer, designer"
-        />
+        <meta property="twitter:title" content="Shidul ✦ developer, designer" />
         <meta
           property="twitter:description"
           content="Developer // Designer // Weeb"
@@ -45,11 +45,11 @@ export default function Document() {
         />
 
         {/* whatsapp */}
-        <meta property="og:site_name" content="pranjal ✦ developer, designer" />
-        <meta property="og:title" content="pranjal ✦ developer, designer" />
+        <meta property="og:site_name" content="Shidul ✦ developer, designer" />
+        <meta property="og:title" content="Shidul ✦ developer, designer" />
         <meta
           property="og:description"
-          content="Developer // Designer // Weeb"
+          content="Developer // Programmer // Weeb"
         />
         <meta
           property="og:image"
@@ -59,12 +59,12 @@ export default function Document() {
         <meta property="og:type" content="website" />
 
         {/* canonical links */}
-        <link rel="canonical" href="https://pranjalshikhar.vercel.app/" />
+        <link rel="canonical" href="https://shidul-portpolio.vercel.app/" />
         <link
           rel="search"
           href="/opensearch.xml"
           type="application/opensearchdescription+xml"
-          title="pranjal ✦ developer, designer"
+          title="Shidul ✦ developer, Programmer"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link

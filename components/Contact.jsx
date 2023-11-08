@@ -21,20 +21,16 @@ const Contact = () => {
             className=" flex align-middle items-center font-jak font-bold space-x-1 w-max "
           >
             <TfiTwitterAlt className="text-[#518FC7] dark:text-[#2498fe] h-3 w-3 md:h-4 md:w-4 " />
-            <h5 className="text-transparent dark:text-[#2498fe]">
-              pranjalshikhar
-            </h5>
+            <h5 className="text-transparent dark:text-[#2498fe]">Shidul</h5>
           </a>
           <a
-            href="https://www.linkedin.com/in/pranjalshikhar"
+            href="https://www.linkedin.com/in/shidul-islam-ab0480241/"
             target="_blank"
             rel="noopener noreferrer"
             className=" flex align-middle items-center font-jak font-bold space-x-1 w-max "
           >
             <TfiLinkedin className="text-[#CA6298] dark:text-[#ff339c] h-3 w-3 md:h-4 md:w-4 " />
-            <h5 className="text-transparent dark:text-[#ff339c]">
-              pranjalshikhar
-            </h5>
+            <h5 className="text-transparent dark:text-[#ff339c]">Shidul</h5>
           </a>
         </div>
       </div>

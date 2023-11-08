@@ -74,9 +74,9 @@ const Header = () => {
         <div className="select-none order-2 md:order-1 cursor-pointer flex items-center text-gray-800">
           <Link href={"/"} className="">
             {currentTheme === "dark" ? (
-              <Image src={pranjal_header_white} alt="header" width="100" />
+              <h3 className="text-white">Shidul</h3>
             ) : (
-              <Image src={pranjal_header_black} alt="header" width="100" />
+              <h3>Shidul</h3>
             )}
           </Link>
         </div>
@@ -148,7 +148,7 @@ const Header = () => {
             className="md:ml-8  text-base xl:text-[1.1rem] font-regular md:my-0 my-7"
           >
             <a
-              href="/Pranjal_Shikhar_Sinha.pdf"
+              href="/Shidul_MERN_resume.pdf"
               target="_blank"
               rel="noreferrer"
               className="text-gray-800 dark:text-white hover:text-purple-500 dark:hover:text-purple-500 duration-500"
