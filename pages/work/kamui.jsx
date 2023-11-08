@@ -5,12 +5,12 @@ import { FiFileText } from "react-icons/fi";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import Image from "next/image";
-import pcBuilder1 from "../../public/pc-builder-projects/pc-builder1.PNG";
-import pcBuilder2 from "../../public/pc-builder-projects/pc-builder2.PNG";
-import pcBuilder3 from "../../public/pc-builder-projects/pc-builder3.PNG";
-import pcBuilder4 from "../../public/pc-builder-projects/pc=builder4.PNG";
-import pcBuilder5 from "../../public/pc-builder-projects/pc-builder5.PNG";
-import pcBuilder6 from "../../public/pc-builder-projects/pc-builder6.PNG";
+import pcBuilder1 from "../../public/work/pc-builder1.png";
+import pcBuilder2 from "../../public/work/pc-builder2.png";
+import pcBuilder3 from "../../public/work/pc-builder3.png";
+import pcBuilder4 from "../../public/work/pc=builder4.png";
+import pcBuilder5 from "../../public/work/pc-builder5.png";
+import pcBuilder6 from "../../public/work/pc-builder6.png";
 
 export default function Kamui() {
   const { systemTheme, theme, setTheme } = useTheme();
