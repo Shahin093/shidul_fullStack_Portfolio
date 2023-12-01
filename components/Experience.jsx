@@ -12,7 +12,7 @@ const Experience = () => {
         <div className="bg-purple-400  h-28 w-28 flex-col justify-end mx-auto blur-none z-40 items-center text-center text-xl text-white font-medium rounded-lg p-2">
           <div className="basis-[60%] text-5xl font-black ">
             <h2 className="text-border mt-1 ">
-              {/* {new Date().getUTCFullYear() - 2020} */}6
+              {/* {new Date().getUTCFullYear() - 2020} */}8
             </h2>
           </div>
           <div className="basis-[30%] text-xs mt-3 font-bold">
@@ -22,7 +22,7 @@ const Experience = () => {
       </div>
       <div className="w-[80%] mx-auto">
         <div className="text-center max-w-2xl select-none   mx-auto tracking-normal leading-5 text-base sm:text-[1.1rem] lg:text-lg">
-          During these 6 Months of FullStack Development Experience, I have
+          During these 8 Months of FullStack Development Experience, I have
           developed a strong problem-solving and critical thinking skills, and
           am able to quickly adapt to new technologies and methods of working.
           Given are some skill-set that I have learned and am still actively

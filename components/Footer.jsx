@@ -52,24 +52,22 @@ const Footer = () => {
           {/* GitHub{" "} */}
           <Image src={GitHub} alt="github" width="30" />
         </Link>
-        <Link
+        {/* <Link
           href="https://www.behance.net/pranjalshikhar"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
           {" "}
-          {/* Bēhance{" "} */}
           <Image src={Behance} alt="behnace" width="30" />
-        </Link>
-        <a
+        </Link> */}
+        {/* <a
           href="https://instagram.com/pranjal.fig"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
           {" "}
-          {/* Instagram{" "} */}
           <Image src={Instagram} alt="instagram" width="30" />
-        </a>
+        </a> */}
         <Link
           href="mailto:sishahin093@gmail.com"
           target="blank"
@@ -82,7 +80,7 @@ const Footer = () => {
         </Link>
       </div>
       <a
-        href="https://github.com/pranjalshikhar/portfolio-v3"
+        href="https://github.com/Shahin093"
         target="blank"
         rel="noreferrer"
         className="flex flex-col text-center group hover:text-purple-800 w-max hover:font-black items-center text-gray-600 text-[0.6rem] sm:text-xs md:text-sm lg:text-md mt-8 md:mt-12 "
@@ -103,7 +101,7 @@ const Footer = () => {
             <p
               className={`opacity-0 bg-purple-100 px-1 md:px-2 py-1 rounded-2xl bg-opacity-30 backdrop-blur-xl hover:opacity-100 transition-all duration-1000 linear absolute top-[35%] left-[50%] -translate-x-[50%]  -translate-y-[50%] w-max text-gray-800 font-bold text-base z-10 `}
             >
-              Amazing ? ⭐ my Github Repo
+              Amazing ? ⭐ my Github Account
             </p>
           )}
         </div>

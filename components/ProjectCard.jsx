@@ -1,6 +1,8 @@
 import Image from "next/image";
 import aizen from "../public/aizen.jpg";
 import kamui from "../public/kamui.jpg";
+import BusService from "../public/busService.PNG";
+
 import pokedex from "../public/pokedex.jpg";
 import portfolio from "../public/portfolio.jpg";
 import cryptohunter from "../public/crypto-hunter.jpg";
@@ -16,7 +18,8 @@ const ProjectCard = () => {
       id: 1,
       image: aizen,
       title: "Tutor Management System",
-      description: "Create beautiful images and gifs of your source code",
+      description:
+        "A tutor management system is software designed to assist businesses in creating online learning platforms and simplifying the operations of tutoring services",
       link: "/work/aizen",
       target: "_self",
     },
@@ -24,66 +27,29 @@ const ProjectCard = () => {
       id: 2,
       image: kamui,
       title: "PC-Builder",
-      description: "Kanban board for planner with superpowers",
+      description:
+        "Online bus services refer to transportation services that can be booked, managed, and accessed through the internet",
       link: "/work/kamui",
       target: "_self",
     },
-    // {
-    //   id: 3,
-    //   image: pokedex,
-    //   title: "Pokedex",
-    //   description: "Gotta Catch'em All. Explore your Pokemon",
-    //   link: "/work/pokedex",
-    //   target: "_self",
-    // },
-    // {
-    //   id: 4,
-    //   image: evo,
-    //   title: "Evo Gym",
-    //   description: "Gym Landing Page",
-    //   link: "https://evogymm.netlify.app/",
-    //   target: "_blank",
-    // },
-    // {
-    //   id: 5,
-    //   image: nike,
-    //   title: "Nike Store",
-    //   description: "Nike Store Landing Page",
-    //   link: "https://nikestore-polly.netlify.app/",
-    //   target: "_blank",
-    // },
-    // {
-    //   id: 6,
-    //   image: nft,
-    //   title: "NFT Page",
-    //   description: "NFT Landing Page",
-    //   link: "https://pranjalshikhar.github.io/nft-landing-page/",
-    //   target: "_blank",
-    // },
-    // {
-    //   id: 7,
-    //   image: portfolio,
-    //   title: "Portfolio",
-    //   description: "Portfolio made using NextJS and Tailwind CSS",
-    //   link: "",
-    //   target: "",
-    // },
-    // {
-    //   id: 8,
-    //   image: cryptohunter,
-    //   title: "Crypto Hunter",
-    //   description: "Get the Trending Crypto list with its Price",
-    //   link: "/work/cryptohunter",
-    //   target: "_self",
-    // },
-    // {
-    //   id: 9,
-    //   image: redeye,
-    //   title: "Red Eye",
-    //   description: "Question based website to know your movie genre",
-    //   link: "/work/redeye",
-    //   target: "_self",
-    // },
+    {
+      id: 2,
+      image: BusService,
+      title: "Online Bus Services",
+      description:
+        "A PC builder, also known as a PC configurator or custom PC builder, is a tool or platform that allows users to customize and build their own personal computers according to their specific needs and preferences",
+      link: "/work/online-bus-service",
+      target: "_self",
+    },
+    {
+      id: 2,
+      image: kamui,
+      title: "Fixil Repaire",
+      description:
+        "A PC builder, also known as a PC configurator or custom PC builder, is a tool or platform that allows users to customize and build their own personal computers according to their specific needs and preferences",
+      link: "/work/fixil-repire",
+      target: "_self",
+    },
   ];
 
   return (

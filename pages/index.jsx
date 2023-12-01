@@ -2,7 +2,7 @@ import { useTheme } from "next-themes";
 import Blob from "@/components/Blob";
 import Image from "next/image";
 import Avatar_Black from "../public/Avatar-black.svg";
-import Avatar_White from "../public/Avatar-white.svg";
+import Avatar_White from "../public/shahin.png";
 import Contact from "@/components/Contact";
 import Experience from "@/components/Experience";
 import Head from "next/head";
@@ -31,7 +31,7 @@ export default function Home() {
     <>
       <Head>
         <title>Shidul ✦ developer, designer</title>
-        <link rel="icon" href="/Avatar-white.svg" />
+        <link rel="icon" href="/shahin.png" />
       </Head>
       <div className="lg:min-h-screen px-10 sm:px-20 md:px-32 lg:mb-12 lg:px-60 mx-auto max-w-[75rem]">
         <div className="lg:h-screen 2xl:h-max max-w-[90rem] mx-auto">
